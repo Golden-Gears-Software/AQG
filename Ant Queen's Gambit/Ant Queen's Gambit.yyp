@@ -1,5 +1,17 @@
 {
   "resources": [
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_x_wall","path":"sprites/spr_x_wall/spr_x_wall.yy",},"order":4,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":3,},
+    {"id":{"name":"obj_y_wall","path":"objects/obj_y_wall/obj_y_wall.yy",},"order":5,},
+    {"id":{"name":"spr_enemy_bullet","path":"sprites/spr_enemy_bullet/spr_enemy_bullet.yy",},"order":3,},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
+    {"id":{"name":"spr_player_bullet","path":"sprites/spr_player_bullet/spr_player_bullet.yy",},"order":2,},
+    {"id":{"name":"spr_y_wall","path":"sprites/spr_y_wall/spr_y_wall.yy",},"order":5,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":1,},
+    {"id":{"name":"obj_x_wall","path":"objects/obj_x_wall/obj_x_wall.yy",},"order":4,},
+    {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -29,7 +41,7 @@
     {"folderPath":"folders/Timelines.yy","order":8,"resourceVersion":"1.0","name":"Timelines","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects.yy","order":9,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms.yy","order":10,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sequences.yy","order":11,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Sequences.yy","order":6,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},

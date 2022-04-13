@@ -11,6 +11,7 @@
     {"id":{"name":"spr_y_wall","path":"sprites/spr_y_wall/spr_y_wall.yy",},"order":5,},
     {"id":{"name":"obj_menu_handler","path":"objects/obj_menu_handler/obj_menu_handler.yy",},"order":7,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_win_announcement","path":"objects/obj_win_announcement/obj_win_announcement.yy",},"order":8,},
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":1,},
     {"id":{"name":"obj_x_wall","path":"objects/obj_x_wall/obj_x_wall.yy",},"order":4,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},

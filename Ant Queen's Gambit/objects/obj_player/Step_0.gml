@@ -11,9 +11,52 @@ y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
 //up and down
 if (keyboard_check(vk_up)){
 	vspeed-=.5
-}
+	if (!(image_angle>-5 && image_angle<5)){
+		if (image_angle>0){
+			image_angle-=5
+		}
+		else if (image_angle<0){
+			image_angle+=5
+		}
+	}
+	
+	 if(keyboard_check(vk_right)){
+		if (image_angle>-45){
+			image_angle-=5
+		}
+		else if(image_angle<-45){
+			image_angle+=5
+		}
+	
+	
+	 }
+	 }
 else if(keyboard_check(vk_down)){
 	vspeed += .5
+	
+	
+	
+	
+	
+	if(keyboard_check(vk_left)){
+		if (image_angle>135){
+			image_angle-=5
+		}
+		else if(image_angle<135){
+			image_angle+=5
+		}
+		
+	}
+	else if(keyboard_check(vk_right)){
+		image_angle = 225
+	}
+	else{
+		image_angle=180
+	}
+	
+	
+	
+	
 }
 else{
 	vspeed=0
@@ -23,9 +66,43 @@ else{
 //left and right
 if (keyboard_check(vk_left)){
 	hspeed-=.5
+	if(image_angle<90){
+		image_angle+=5
+	}
+	
+	if (keyboard_check(vk_up)){
+		if (image_angle<45){
+			image_angle+=5
+		}
+		else if(image_angle>45){
+			image_angle-=5
+		}
+	}
+	if(keyboard_check(vk_down)){
+		if (image_angle>120){
+			image_angle-=5
+		}
+		else if(image_angle<120){
+			image_angle+=5
+		}
+		
+	}
 }
 else if(keyboard_check(vk_right)){
 	hspeed += .5
+	if(image_angle>-90){
+		image_angle-=5
+	}
+	
+	if (keyboard_check(vk_down)){
+		if (image_angle<225){
+			image_angle+=5
+		}
+		
+	}
+	
+	
+	
 }
 else{
 	hspeed=0

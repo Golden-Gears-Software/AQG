@@ -34,7 +34,7 @@ if(canShoot){
 	
 		canShoot = false
 	
-		instance_create_layer(self.x, self.y, Room1, obj_player_bullet)
+		instance_create_layer(self.x, self.y, "Instances", obj_player_bullet)
 	
 		alarm[0] = 20
 	}

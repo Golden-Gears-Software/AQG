@@ -1,35 +1,44 @@
-/// @description Movement and shooting
+/// @description Insert description here
 // You can write your code in this editor
 
-//Movement
-//Align player sprite with direction
-image_angle = direction - 90
-
-//Forward and back
-if (keyboard_check(vk_up) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
-	speed += forwardSpd * 3/20
-}
-else if(keyboard_check(vk_down) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
-	speed -= forwardSpd * 3/20
-}
-else {
-	speed = 0
-}
-
-
-//Rotate left and right
-if (keyboard_check(vk_left)){
-	direction += rotationSpd
-}
-else if(keyboard_check(vk_right)){
-	direction -= rotationSpd
-}
-
-
-//speed limiter
-speed = clamp(speed,-forwardSpd, forwardSpd)
-
-//make sure player doesn't go out of the room
+//make sure player doesn't go too fast
+vspeed = clamp(vspeed,-2, 2)
+hspeed = clamp(hspeed, -2, 2)
 x = clamp(x, 0+self.sprite_width, room_width-self.sprite_width)
 y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
 
+
+//up and down
+if (keyboard_check(vk_up)){
+	vspeed-=.5
+}
+else if(keyboard_check(vk_down)){
+	vspeed += .5
+}
+else{
+	vspeed=0
+}
+
+
+//left and right
+if (keyboard_check(vk_left)){
+	hspeed-=.5
+}
+else if(keyboard_check(vk_right)){
+	hspeed += .5
+}
+else{
+	hspeed=0
+}
+
+
+if(canShoot){
+	if keyboard_check(vk_space){
+	
+		canShoot = false
+	
+		instance_create_layer(self.x, self.y, Room1, obj_player_bullet)
+	
+		alarm[0] = 20
+	}
+}

@@ -5,7 +5,7 @@
 image_angle = direction
 
 //Rotate gradually
-direction++
+//direction++
 
 //Shoot repeatedly
 if canShoot {

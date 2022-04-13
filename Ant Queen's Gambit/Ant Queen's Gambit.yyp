@@ -5,6 +5,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":3,},
     {"id":{"name":"obj_y_wall","path":"objects/obj_y_wall/obj_y_wall.yy",},"order":5,},
     {"id":{"name":"spr_enemy_bullet","path":"sprites/spr_enemy_bullet/spr_enemy_bullet.yy",},"order":3,},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
     {"id":{"name":"spr_player_bullet","path":"sprites/spr_player_bullet/spr_player_bullet.yy",},"order":2,},
     {"id":{"name":"spr_y_wall","path":"sprites/spr_y_wall/spr_y_wall.yy",},"order":5,},

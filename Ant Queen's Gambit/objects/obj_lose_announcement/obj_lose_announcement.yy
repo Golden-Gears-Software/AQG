@@ -29,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_win_announcement",
+  "name": "obj_lose_announcement",
   "tags": [],
   "resourceType": "GMObject",
 }

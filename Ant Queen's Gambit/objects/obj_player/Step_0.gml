@@ -1,112 +1,32 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//make sure player doesn't go too fast
-vspeed = clamp(vspeed,-2, 2)
-hspeed = clamp(hspeed, -2, 2)
-x = clamp(x, 0+self.sprite_width, room_width-self.sprite_width)
-y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
+//Movement
+//Align player sprite with direction
+image_angle = direction
 
-
-//up and down
-if (keyboard_check(vk_up)){
-	vspeed-=.5
-	if (!(image_angle>-5 && image_angle<5)){
-		if (image_angle>0){
-			image_angle-=5
-		}
-		else if (image_angle<0){
-			image_angle+=5
-		}
-	}
-	
-	 if(keyboard_check(vk_right)){
-		if (image_angle>-45){
-			image_angle-=5
-		}
-		else if(image_angle<-45){
-			image_angle+=5
-		}
-	
-	
-	 }
-	 }
-else if(keyboard_check(vk_down)){
-	vspeed += .5
-	
-	
-	
-	
-	
-	if(keyboard_check(vk_left)){
-		if (image_angle>135){
-			image_angle-=5
-		}
-		else if(image_angle<135){
-			image_angle+=5
-		}
-		
-	}
-	else if(keyboard_check(vk_right)){
-		image_angle = 225
-	}
-	else{
-		image_angle=180
-	}
-	
-	
-	
-	
+//Forward and back
+if (keyboard_check(vk_up) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
+	speed += forwardSpd * 3/20
 }
-else{
-	vspeed=0
+else if(keyboard_check(vk_down) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
+	speed -= forwardSpd * 3/20
 }
-
-
-//left and right
+else {
+	speed = 0
+}
+//Rotate left and right
 if (keyboard_check(vk_left)){
-	hspeed-=.5
-	if(image_angle<90){
-		image_angle+=5
-	}
-	
-	if (keyboard_check(vk_up)){
-		if (image_angle<45){
-			image_angle+=5
-		}
-		else if(image_angle>45){
-			image_angle-=5
-		}
-	}
-	if(keyboard_check(vk_down)){
-		if (image_angle>120){
-			image_angle-=5
-		}
-		else if(image_angle<120){
-			image_angle+=5
-		}
-		
-	}
+	direction += rotationSpd
 }
 else if(keyboard_check(vk_right)){
-	hspeed += .5
-	if(image_angle>-90){
-		image_angle-=5
-	}
-	
-	if (keyboard_check(vk_down)){
-		if (image_angle<225){
-			image_angle+=5
-		}
-		
-	}
-	
-	
-	
+	direction -= rotationSpd
 }
-else{
-	hspeed=0
-}
+//speed limiter
+speed = clamp(speed,-forwardSpd, forwardSpd)
+//make sure player doesn't go out of the room
+x = clamp(x, 0+self.sprite_width, room_width-self.sprite_width)
+y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
 
 
 if(canShoot){
@@ -119,3 +39,4 @@ if(canShoot){
 		alarm[0] = 20
 	}
 }
+

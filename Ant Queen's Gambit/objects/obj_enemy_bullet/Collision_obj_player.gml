@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-count++
-if (count == bounces){
-	instance_destroy()
-}
 
-hspeed*=-1
+instance_destroy(other)
+instance_destroy()

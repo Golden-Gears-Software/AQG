@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-count++
-if (count == bounces){
-	instance_destroy()
-}
+speed = DefSpeed
+count = 0;
 
-hspeed*=-1
+direction = obj_enemy.direction

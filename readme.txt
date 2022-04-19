@@ -15,6 +15,7 @@ Shoot with space. You can hold down space to shoot repeatedly.
 
 Cheat Codes:
 Restart room: Enter + R
+Go to Lose Screen: Enter + F
 
 Known bugs:
 Each bounce that may consume more than one bounce per collision, thus causing bullets to bounce fewer times then expected.

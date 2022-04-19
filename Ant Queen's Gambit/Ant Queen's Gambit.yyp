@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_x_wall","path":"sprites/spr_x_wall/spr_x_wall.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":3,},

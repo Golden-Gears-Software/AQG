@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_bullet",
-    "path": "sprites/spr_enemy_bullet/spr_enemy_bullet.yy",
+    "name": "spr_projectileSpider1",
+    "path": "sprites/spr_projectileSpider1/spr_projectileSpider1.yy",
   },
   "solid": false,
   "visible": true,

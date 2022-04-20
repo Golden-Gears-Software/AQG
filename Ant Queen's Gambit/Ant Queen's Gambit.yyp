@@ -22,6 +22,7 @@
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":1,},
     {"id":{"name":"obj_x_wall","path":"objects/obj_x_wall/obj_x_wall.yy",},"order":4,},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},"order":1,},
+    {"id":{"name":"spr_crevice","path":"sprites/spr_crevice/spr_crevice.yy",},"order":11,},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":10,},
     {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":2,},
     {"id":{"name":"fn_fin","path":"fonts/fn_fin/fn_fin.yy",},"order":0,},

@@ -36,7 +36,7 @@ if(canShoot){
 	
 		instance_create_layer(self.x, self.y, "Instances", obj_player_bullet)
 	
-		alarm[0] = 40
+		alarm[0] = shootCooldown
 	}
 }
 

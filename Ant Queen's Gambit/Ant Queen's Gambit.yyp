@@ -6,7 +6,7 @@
     {"id":{"name":"spr_x_wall","path":"sprites/spr_x_wall/spr_x_wall.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":3,},
     {"id":{"name":"obj_y_wall","path":"objects/obj_y_wall/obj_y_wall.yy",},"order":5,},
-    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":17,},
+    {"id":{"name":"spr_alert","path":"sprites/spr_alert/spr_alert.yy",},"order":17,},
     {"id":{"name":"spr_enemy_bullet","path":"sprites/spr_enemy_bullet/spr_enemy_bullet.yy",},"order":3,},
     {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},"order":2,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
@@ -32,6 +32,7 @@
     {"id":{"name":"spr_projectileAnt2","path":"sprites/spr_projectileAnt2/spr_projectileAnt2.yy",},"order":14,},
     {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":2,},
     {"id":{"name":"fn_fin","path":"fonts/fn_fin/fn_fin.yy",},"order":0,},
+    {"id":{"name":"obj_alert","path":"objects/obj_alert/obj_alert.yy",},"order":11,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

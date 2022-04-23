@@ -31,7 +31,6 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"bounces","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"objectId":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"DefSpeed","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"objectId":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

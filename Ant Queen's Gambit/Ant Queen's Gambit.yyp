@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},"order":6,},
+    {"id":{"name":"music","path":"objects/music/music.yy",},"order":12,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_projectileSpider2","path":"sprites/spr_projectileSpider2/spr_projectileSpider2.yy",},"order":16,},
     {"id":{"name":"spr_x_wall","path":"sprites/spr_x_wall/spr_x_wall.yy",},"order":4,},
@@ -11,6 +12,7 @@
     {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},"order":2,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
+    {"id":{"name":"bg_music","path":"sounds/bg_music/bg_music.yy",},"order":0,},
     {"id":{"name":"obj_moat","path":"objects/obj_moat/obj_moat.yy",},"order":10,},
     {"id":{"name":"spr_player_bullet","path":"sprites/spr_player_bullet/spr_player_bullet.yy",},"order":2,},
     {"id":{"name":"spr_y_wall","path":"sprites/spr_y_wall/spr_y_wall.yy",},"order":5,},
@@ -44,6 +46,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -77,7 +80,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "Ant Queen's Gambit",

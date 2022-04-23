@@ -29,6 +29,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_menu_handler","path":"objects/obj_menu_handler/obj_menu_handler.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":58.0,"y":59.0,"resourceVersion":"1.0","name":"inst_1EAC94B2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.0752475262,"scaleY":0.073482424,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":846.962341,"y":635.4632,"resourceVersion":"1.0","name":"inst_217053CF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_y_wall","path":"objects/obj_y_wall/obj_y_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1380.0,"y":540.0,"resourceVersion":"1.0","name":"inst_7DB69634","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"music","path":"objects/music/music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1740.0,"y":60.0,"resourceVersion":"1.0","name":"inst_5209C6EA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":60,"gridY":60,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"headPosition":0.0,"rotation":90.0,"scaleX":0.0688476563,"scaleY":0.06347656,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1372.0,"y":544.0,"resourceVersion":"1.0","name":"graphic_5FEA5666","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -60,6 +61,7 @@
     {"name":"inst_76A9CA45","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_217053CF","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DB69634","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5209C6EA","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

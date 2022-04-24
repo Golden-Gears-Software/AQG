@@ -41,7 +41,6 @@ x = clamp(x, 0+self.sprite_width, room_width-self.sprite_width)
 y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
 
 
-
 if(canShoot){
 	if keyboard_check(vk_space){
 	

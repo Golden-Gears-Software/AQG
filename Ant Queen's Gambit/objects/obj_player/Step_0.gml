@@ -5,15 +5,27 @@
 //Align player sprite with direction
 image_angle = direction
 
+//Converting speed and direction into xspeed and yspeed
+xSpd = lengthdir_x(forwardSpd, direction)
+ySpd = lengthdir_y(forwardSpd, direction)
+
 //Forward and back
-if (keyboard_check(vk_up) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
-	speed += forwardSpd * 3/20
+if (keyboard_check(vk_up)){
+	if (!place_meeting(x + 2*xSpd, y, obj_x_wall))
+		x += xSpd
+	if (!place_meeting(x, y + 2*ySpd, obj_x_wall))
+		y += ySpd
+	image_speed = 1
 }
-else if(keyboard_check(vk_down) && place_free(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))){
-	speed -= forwardSpd * 3/20
+else if(keyboard_check(vk_down)){
+	if (!place_meeting(x - 2*xSpd, y, obj_x_wall))
+		x -= xSpd
+	if (!place_meeting(x, y - 2*ySpd, obj_x_wall))
+		y -= ySpd
+	image_speed = 1
 }
 else {
-	speed = 0
+	image_index = 0
 }
 //Rotate left and right
 if (keyboard_check(vk_left)){
@@ -29,6 +41,7 @@ x = clamp(x, 0+self.sprite_width, room_width-self.sprite_width)
 y = clamp(y, 0+self.sprite_height, room_height-self.sprite_height)
 
 
+
 if(canShoot){
 	if keyboard_check(vk_space){
 	
@@ -38,12 +51,5 @@ if(canShoot){
 	
 		alarm[0] = 40
 	}
-}
-
-if (speed == 0){
-	image_index = 0
-}
-else{
-	image_speed = .3
 }
 

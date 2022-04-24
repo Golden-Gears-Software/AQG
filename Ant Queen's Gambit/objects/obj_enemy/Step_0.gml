@@ -24,8 +24,7 @@ if (los_x_wall && los_y_wall) {
 
 //Create an alert tag to let the player know
 if (alertState) {
-	var alertTag = instance_create_layer(self.x, self.y - 40, "Instances", obj_alert)
-	alertTag.creator = id
+	instance_create_layer(self.x, self.y - 40, "Instances", obj_alert)
 }
 
 //Shoot repeatedly

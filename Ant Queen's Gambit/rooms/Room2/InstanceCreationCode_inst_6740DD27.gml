@@ -1,0 +1,1 @@
+path_start(p_2_5, forwardSpd, path_action_restart, true)

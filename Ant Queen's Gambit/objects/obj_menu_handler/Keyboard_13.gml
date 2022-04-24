@@ -9,3 +9,6 @@ if keyboard_check(ord("R")) {
 if keyboard_check(ord("F")){
 	room_goto(WinRoom)
 }
+if keyboard_check(ord("L")){
+	room_goto(LoseRoom)
+}

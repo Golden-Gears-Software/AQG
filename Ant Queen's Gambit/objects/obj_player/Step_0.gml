@@ -18,9 +18,9 @@ if (keyboard_check(vk_up)){
 	image_speed = 1
 }
 else if(keyboard_check(vk_down)){
-	if (!place_meeting(x - 2*xSpd, y, obj_x_wall))
+	if (!place_meeting(x - 3*xSpd, y, obj_x_wall))
 		x -= xSpd
-	if (!place_meeting(x, y - 2*ySpd, obj_x_wall))
+	if (!place_meeting(x, y - 3*ySpd, obj_x_wall))
 		y -= ySpd
 	image_speed = 1
 }
